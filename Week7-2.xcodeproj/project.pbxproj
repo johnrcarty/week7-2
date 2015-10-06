@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		B64F89501BC1AF5A002392AA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B64F894F1BC1AF5A002392AA /* main.cpp */; };
+		B64F89581BC1AF93002392AA /* InventoryItem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B64F89561BC1AF93002392AA /* InventoryItem.cpp */; settings = {ASSET_TAGS = (); }; };
+		B64F895B1BC1B2BC002392AA /* CashRegister.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B64F89591BC1B2BC002392AA /* CashRegister.cpp */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +26,11 @@
 
 /* Begin PBXFileReference section */
 		B64F894C1BC1AF5A002392AA /* Week7-2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Week7-2"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B64F894F1BC1AF5A002392AA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		B64F894F1BC1AF5A002392AA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = main.cpp; sourceTree = "<group>"; };
+		B64F89561BC1AF93002392AA /* InventoryItem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = InventoryItem.cpp; sourceTree = "<group>"; };
+		B64F89571BC1AF93002392AA /* InventoryItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InventoryItem.h; sourceTree = "<group>"; };
+		B64F89591BC1B2BC002392AA /* CashRegister.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CashRegister.cpp; sourceTree = "<group>"; };
+		B64F895A1BC1B2BC002392AA /* CashRegister.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CashRegister.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 			isa = PBXGroup;
 			children = (
 				B64F894F1BC1AF5A002392AA /* main.cpp */,
+				B64F89561BC1AF93002392AA /* InventoryItem.cpp */,
+				B64F89571BC1AF93002392AA /* InventoryItem.h */,
+				B64F89591BC1B2BC002392AA /* CashRegister.cpp */,
+				B64F895A1BC1B2BC002392AA /* CashRegister.h */,
 			);
 			path = "Week7-2";
 			sourceTree = "<group>";
@@ -119,6 +129,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B64F89501BC1AF5A002392AA /* main.cpp in Sources */,
+				B64F89581BC1AF93002392AA /* InventoryItem.cpp in Sources */,
+				B64F895B1BC1B2BC002392AA /* CashRegister.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
